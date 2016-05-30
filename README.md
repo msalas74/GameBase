@@ -25,3 +25,7 @@ A game framework
 
 This project is licensed under the ISC License - see the [LICENSE.md](LICENSE.md) file for details
 
+## Acknowledgments
+
+* John Watson - The base game mechanics - [Check it out here](http://gamemechanicexplorer.com/)
+
