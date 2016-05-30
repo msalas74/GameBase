@@ -1,0 +1,4 @@
+var GameState = function (game) {
+
+};
+

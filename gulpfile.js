@@ -14,6 +14,12 @@ var concat = require('gulp-concat')
 var environment = 'development'
 
 var jsFiles = [
+  'node_modules/phaser/build/phaser.min.js',
+  'app/js/boot.js',
+  'app/js/preloader.js',
+  'app/js/mainMenu.js',
+  'app/js/enemy.js',
+  'app/js/game.js',
   'app/js/app.js'
 ]
 
