@@ -1,7 +1,6 @@
 var gulp = require('gulp')
 var gutil = require('gulp-util')
 var jshint = require('gulp-jshint')
-var sass = require('gulp-ruby-sass')
 var sourcemaps = require('gulp-sourcemaps')
 var webserver = require('gulp-webserver')
 var imagemin = require('gulp-imagemin')
@@ -82,12 +81,12 @@ gulp.task('views', function () {
 
 // image optimize task =====================
 gulp.task('images', function () {
-  return gulp.src(['app/images/*', 'app/images/**/*'])
+  return gulp.src(['app/img/*', 'app/img/**/*'])
     // .pipe(imagemin({
     //  progressive: true,
     //  use:[imageminJpegtran({ptogressive: true})]
     // }))
-    .pipe(gulp.dest('build/images'))
+    .pipe(gulp.dest('build/img'))
 })
 
 // fonts

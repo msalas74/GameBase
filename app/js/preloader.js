@@ -1,16 +1,16 @@
 //load images and sounds
 GameState.prototype.preload = function () {
 	//bullets and player
-	this.game.load.image('bullet', 'assets/gfx/bullet.png');
+	this.game.load.image('bullet', 'img/assets/gfx/bullet.png');
 
 	//enemies
-	this.game.load.image('enemy', 'assets/gfx/player.png');
+	this.game.load.image('enemy', 'img/assets/gfx/player.png');
 
 	//world objects
-	this.game.load.image('ground', 'assets/gfx/ground.png');
+	this.game.load.image('ground', 'img/assets/gfx/ground.png');
 
 	//sfx and sprites
-	this.game.load.spritesheet('explosion', 'assets/gfx/explosion.png', 128, 128);
+	this.game.load.spritesheet('explosion', 'img/assets/gfx/explosion.png', 128, 128);
 
 };
 
