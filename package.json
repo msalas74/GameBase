@@ -9,6 +9,18 @@
   "author": "Matias Salas",
   "license": "ISC",
   "devDependencies": {
-    "phaser": "^2.4.8"
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.4"
+  },
+  "dependencies": {
+    "phaser": "^2.6.2"
   }
 }
