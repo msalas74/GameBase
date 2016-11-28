@@ -1,6 +1,6 @@
 # Base Game Starter
 
-A game scaffolding to help start work flow development.  I'm using Gulp with PhaserJS for the game framework.
+A game template to help start work flow development.  I'm using Gulp with PhaserJS for the game framework.
 
 ## Getting Started
 
